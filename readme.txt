@@ -3,7 +3,7 @@ Contributors: ShinichiN
 Tags: Facebook,ogp,open graph tag
 Requires at least: 4.0
 Tested up to: 4.0
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,5 +59,5 @@ When home page, archive pages, search result page or what ever else pages are sh
 
 == Upgrade Notice ==
 
-= 0.1 =
-Will be soon.
+= 0.2 =
+Assets done.
