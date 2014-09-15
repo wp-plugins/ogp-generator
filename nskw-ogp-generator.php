@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: OGP Generator
-Version: 0.2
+Version: 0.3
 Description: This plugin enables you to set OGP tags.
 Author: Shinichi Nishikawa
 Author URI: http://th-daily.shinichi.me
