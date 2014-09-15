@@ -1,0 +1,77 @@
+# Copyright (C) 2014 OGP Generator
+# This file is distributed under the same license as the OGP Generator package.
+msgid ""
+msgstr ""
+"Project-Id-Version: OGP Generator 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/nskw-ogp-generator\n"
+"POT-Creation-Date: 2014-09-10 14:34:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-09-10 21:38+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.6.9\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+
+#: inc/output.php:26
+msgid "Archive of: "
+msgstr "アーカイブ： "
+
+#: nskw-ogp-generator.php:20
+msgid "OGP Settings"
+msgstr "OGP 設定"
+
+#: nskw-ogp-generator.php:28
+msgid "Default Image"
+msgstr "デフォルト画像"
+
+#: nskw-ogp-generator.php:37 nskw-ogp-generator.php:46
+msgid "App ID/fb:admins ID"
+msgstr ""
+
+#: nskw-ogp-generator.php:61
+msgid ""
+"This image will be used in home page, archive pages and posts/pages which "
+"don't have post thumbnails"
+msgstr ""
+"この画像はトップやアーカイブなどのページで採用される他、投稿やページでアイ"
+"キャッチ画像がないときなど、他に表示すべきものがないときに表示されます。"
+
+#: nskw-ogp-generator.php:70
+msgid ""
+"Url of the default image. At least 600x315 pixels, but it's better to have a "
+"bigger one.<br />You can upload your image <a href=\"%s\" target=\"_blank"
+"\">here</a>"
+msgstr ""
+"画像のURLを入力してください。最初でも600x315pixel必要です。大きいほうがよいで"
+"す。<br />画像のアップロードは、<a href=\"%s\" target=\"_blank\">メディア追加"
+"</a>で可能です。"
+
+#: nskw-ogp-generator.php:81
+msgid ""
+"Input your facebook App ID. You can find out what App ID is <a href="
+"\"https://www.facebook.com/help/community/question/?"
+"id=372967692803654\">here.</a>"
+msgstr ""
+"FacebookのアプリケーションID、またはfb:adminsに入れるIDを入力してください。詳"
+"細は、<a href=\"https://www.facebook.com/help/community/question/?"
+"id=372967692803654\">こちら</a>で確認できます。"
+
+#. Plugin Name of the plugin/theme
+msgid "OGP Generator"
+msgstr "OGP ジェネレーター"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://th-daily.shinichi.me"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin enables you to set OGP tags."
+msgstr "OGPタグを良い感じに作ります。"
+
+#. Author of the plugin/theme
+msgid "Shinichi Nishikawa"
+msgstr "西川伸一"
