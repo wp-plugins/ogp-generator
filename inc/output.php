@@ -7,7 +7,10 @@ function nskw_ogp_output() {
 	if ( ! $installed ) {
 		return;
 	}
-	
+
+	// remove ogp tags by jetpack plugin
+	add_filter( 'jetpack_enable_opengraph', '__return_false', 11 );
+
 	$og_title = $og_type = $og_url = $og_img = $og_sitename = $og_locale = $og_description = '';
 	
 	// og:site_name
