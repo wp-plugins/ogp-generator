@@ -96,17 +96,25 @@ function nskw_ogp_output() {
 	
 	// og:description
 	if ( is_singular() && !is_front_page() && !is_home() ) {
-		
+
 		global $post;
 
-		$description    = $post->post_content;
+		if ( $post->post_excerpt ) {
+			$description = $post->post_excerpt;
+		} else {
+			$description = $post->post_content;
+		}
+
 		$description    = wp_strip_all_tags( $description );
 		$description    = strip_shortcodes( $description );
-		$og_description = wp_trim_words( $description, 55, '' );
-		
+		$og_description = wp_trim_words( $description, 100, '' );
+
 	} else {
+
 		$og_description = get_bloginfo( 'description' );
+
 	}
+	$og_description = apply_filters( 'nskw_og_description', $og_description );
 
 	// about ids
 	$property = get_option( 'nskw_ogp_id_select' );
