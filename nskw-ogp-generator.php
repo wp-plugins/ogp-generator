@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: OGP Generator
-Version: 0.5
+Version: 0.5.1
 Description: Generates your OGP with simple configurations.
 Author: Shinichi Nishikawa
 Author URI: http://th-daily.shinichi.me
